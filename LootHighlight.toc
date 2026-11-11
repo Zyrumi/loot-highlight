@@ -1,0 +1,8 @@
+## Interface: 16001
+## Title: Loot Highlight
+## Notes: Points out nearby herbs, ore, chests, quest objects and lootable corpses.
+## Version: 2.9.2
+## SavedVariables: LootHighlightDB
+
+LootHighlight.lua
+Options.lua
