@@ -1549,6 +1549,12 @@ local function OnEvent(event, arg1)
                 if db.markerSize == 64 then db.markerSize = 110 end
                 if db.glints == 12 then db.glints = 18 end
             end
+            -- 2.9.3: the banner is on by default; switch it back on once for
+            -- saves that had it off. It can still be turned off afterwards.
+            if not db.v293 then
+                db.v293 = true
+                db.banner = true
+            end
             Sanitize() -- also turns version 1's true/false into on/off
         end
     elseif not db then
