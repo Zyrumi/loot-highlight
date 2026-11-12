@@ -9,7 +9,7 @@ Makes herbs, ore, chests, quest objects and lootable corpses easy to notice.
 - Bright glints when you are close enough to use it, dimmed glints when you need to walk closer, and grey glints with the skill you need (for example "need Mining 65, you have 40") when your skill is too low.
 - The banner and ping only come once per node: going back to the same vein between loots stays quiet.
 - Every type has its own color (herbs green, ore copper, chests gold...) and you can pick any color for each one.
-- Banner at the top of the screen with the object's name (on by default, can be turned off), and a short ping when something new comes into range.
+- Banner at the top of the screen with the object's name (off by default, turn it on in the settings), and a short ping when something new comes into range.
 - Can set the game's own object outline (Outline Mode), so you get outlines and glints together.
 - Can keep the game's quest item sparkle on (the game only shows it while outlines are off).
 
